@@ -801,5 +801,6 @@ def storeuploadedTransactionfile():
     return render_template('UploadData.html',messageTransactions=message)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
+
 
